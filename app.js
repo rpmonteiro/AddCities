@@ -9,5 +9,4 @@ app.get('/cities', function(req, res) {
 	res.json(cities);	
 });
 
-
 module.exports = app;
