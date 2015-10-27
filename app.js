@@ -33,6 +33,11 @@ app.post('/cities', urlencode, function(req, res) {
 		
 		res.status(201).json(newCity.name);
 	});
+
+	if (!newCity.name || !newCity.description) {
+		res.sendStatus(400);
+		return false;
+	};
 });
 
 app.delete('/cities/:name', function(req, res) {
