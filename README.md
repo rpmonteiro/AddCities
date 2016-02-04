@@ -1,5 +1,5 @@
 # AddCities
-A very simple CRUD page created with Express to learn it's quirks and basic usages.
+A very simple CRUD page created with Express to learn its quirks and basic usages.
 
 Final product:
 
